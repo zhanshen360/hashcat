@@ -1,1 +1,1 @@
-./hashcat -a 0 -m 11300 ceshi.hash 777.dict -o key.txt
+./hashcat -a 1 -m 11300 example0.hash mingzi.dict shuzi.dict -o key.txt
