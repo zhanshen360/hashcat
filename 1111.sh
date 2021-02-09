@@ -1,1 +1,0 @@
-./hashcat -a 0 -m 11300 example0.hash 456.txt -o key.txt
