@@ -1,9 +1,6 @@
 #!/usr/bin/python
 # coding:utf-8
 import random
-import sys
-
-#sys.stdout = open('output.txt','wt')
 
 value2_index = set(["1","2","9","8","4","A","B","D","E","F","G","J","K","L","M","P","R","S","T","W","Y"])
 value2_index1 = set(["a","d","e","f","g","h","i","j","k","m","n","o","p","q","r","s","t","u","v","w","y","!","-"])
@@ -57,6 +54,6 @@ while True:
    result = next(my_function)
    result1 = next(my_function1)
    result2 = next(my_function2)
-   print >> sys.stdout, (str(result)+str(result1)+str(result2))
+   print(str(result)+str(result1)+str(result2))
    if counter > 1000000000:
      break
