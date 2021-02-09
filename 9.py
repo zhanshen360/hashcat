@@ -55,5 +55,5 @@ while True:
    result1 = next(my_function1)
    result2 = next(my_function2)
    print(str(result)+str(result1)+str(result2))
-   if counter > 40000000:
+   if counter > 15000000:
      break
