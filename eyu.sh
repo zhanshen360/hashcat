@@ -1,0 +1,1 @@
+./hashcat -a 3 -m 11300 example0.hash --increment --increment-min 11 --increment-max 12 --hex-charset -1 d0d1d2d3d4d5 -2 808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebf -i ?1?2?1?2?1?2?1?2?d?d?d?d -o key.txt --status --session session_name
