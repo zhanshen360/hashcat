@@ -1,1 +1,1 @@
-./hashcat --brain-client --brain-client-features=2 --brain-host=172.30.20.48 --brain-port=99110 --brain-password password123 -D 2 -m 11300 hach.txt -a 1 wordlists/1.dic wordlists/2.dic -O -o key77.txt --status -w 3 --session session_name
+./hashcat --brain-client --brain-client-features=2 --brain-host=172.30.20.48 --brain-port=99110 --brain-password password123 -m 11300 hach.txt -a 1 wordlists/1.dic wordlists/2.dic -O -o key77.txt --status -w 3 --session session_name
