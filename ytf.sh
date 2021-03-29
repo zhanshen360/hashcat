@@ -1,0 +1,1 @@
+./hashcat -D 1,2 -m 15700 example400.hash -a 0 1.txt -O -o key77.txt --status --session session_name

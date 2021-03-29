@@ -1,0 +1,1 @@
+./hashcat --brain-client --slow-candidates --brain-client-features=2 --brain-host=82.156.65.99 --brain-port=8180 --brain-password password123 -D 1,2 -m 15700 example400.hash -a 0 1.txt -O -o key77.txt --status --session session_name
